@@ -1,5 +1,5 @@
 # Longest cycles
-This repository contains code and data related to the paper: "FILL ME IN LATER". People interested in the current repository might also be interested in [this repository] (https://github.com/JorikJooken/hamiltonian_cycles) about counting hamiltonian cycles.
+This repository contains code and data related to the paper: "FILL ME IN LATER". People interested in the current repository might also be interested in [this repository](https://github.com/JorikJooken/hamiltonian_cycles) about counting hamiltonian cycles.
 
 The files "18VertexGraph.g6", "24VertexGraph.g6" and "60VertexGraph.g6" each contain a graph that is described in that paper, represented in graph6 format.
 
