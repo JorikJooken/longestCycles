@@ -26,7 +26,7 @@ WY??WIG?G??B?ACO_A??D?AG?CWO??A?CC?A?_?]???E??@
 4
 ```
 
-This indicates that the graph is non-hamiltonian and has 4 pairwise distinct hamiltonian cycles.
+This indicates that the graph is non-hamiltonian and has 4 pairwise distinct longest cycles.
 
 Similarly, invoking the command
 
