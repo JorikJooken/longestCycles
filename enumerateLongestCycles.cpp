@@ -248,6 +248,10 @@ int main(int argc, char *argv[])
         //if(n>32) continue;
         loadGraph(line,n,adjacencyList);
         countLongestCycles();
+        int nbLongestCycles=allLongestCycles.size();
+        int lenCycle=-1;
+        if(nbLongestCycles>=1) lenCycle=allLongestCycles[0].size();
+        if(skip_hamiltonian==1 && lenCycle==n) continue;
         cout << line << endl;
         cout << n << endl;
         for(int i=0; i<n; i++)
@@ -259,9 +263,6 @@ int main(int argc, char *argv[])
             }
             cout << endl;
         }
-        int nbLongestCycles=allLongestCycles.size();
-        int lenCycle=-1;
-        if(nbLongestCycles>=1) lenCycle=allLongestCycles[0].size();
         cout << nbLongestCycles << " " << lenCycle << endl;
         for(vector<int> cyc : allLongestCycles)
         {

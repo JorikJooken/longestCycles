@@ -60,6 +60,10 @@ QhEHGDH?G?_@?P??_AG?HC?E?HG
 This indicates that this graph has a unique hamiltonian cycle.
 
 ### enumerateLongestCycles.cpp
+The program can be compiled by the following command:
+```bash
+g++ -g -std=c++11 -O3 enumerateLongestCycles.cpp -o enumerateLongestCyclesExecutable
+```
 
 This program works in a similar way as the previous program, but instead of counting the number of longest cycles, it will enumerate the longest cycles and write them to the output stream. Therefore, this program can expected to be a bit slower than the previous program.
 
